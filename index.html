@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>form</title>
+</head>
+<body>
+    <form action="#">
+        <p>имя</p>
+        <input type="text" placeholder="имя" name="name">
+        <p>Пароль</p>
+        <input type="password" placeholder="password">
+        <p>Телефон</p>
+        <input type="tel" placeholder="Телефон" name="phone"> 
+        <div>
+            <p>Пол</p>
+            <div class="">
+                <input type="radio" checked name="gender" value="male">Мужской
+            </div>
+            <div class=""> 
+                <input type="radio" name="gender" value="female">Женский
+            </div>
+        </div>
+        <div class="">
+            <p>Имущество</p>
+            <div class="">
+                <input type="checkbox" checked name="car" value="yes">Автомобиль
+            </div>
+            <div class="">
+                <input type="checkbox" disabled name="bike" value="yes">Мотоцикл
+            </div>
+            <div class="">
+                <input type="checkbox" name="house" value="yes"> Дом
+            </div>
+        </div>
+        <div class="">
+            <p>Дополнительная информация</p>
+            <div class="">
+                <textarea name="info"></textarea>
+            </div>
+        </div>
+        <div class="">
+            <p>Прикрепите фото</p>
+            <div>
+                <input type="file">
+            </div>
+        </div>
+        <div class="">
+            <p>Любимый цвет</p>
+            <select name="color">
+                <option value="red">Красный</option>
+                <option value="blue">Синий</option>
+                <option selected value="black">Черный</option>
+            </select>
+        </div>
+        <div class="">
+            <p>Действия</p>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </div>
+    </form>
+</body>
+</html>
